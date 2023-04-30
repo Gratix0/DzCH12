@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style/main.css'%}" type="text/css">
+</head>
+<body>
+    <header id="hadder" class="headerForNotMain">
+        <div class="container">
+            <div class="nav">
+                <img src="{% static 'img/logo.svg'%}" alt="Burning Man" class="logo">
+                <ul class="menu">
+                    <li>
+                        <a href="index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a class ="klav" href="tikets.html">
+                            Astro Purple
+                        </a>
+                    </li>
+                    <li>
+                        <a class ="klav" href="pinkipig.html">
+                            Everething green & Your choise
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            Свитчи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.avito.ru/user/198529101d704205a6664e6a61045ba0/profile?src=sharing">
+                            
+                        </a>
+                    </li>
+                </ul>
+                <a href="contakts.html" class="tel">
+                    Как заказать
+                </a>
+            </div></div>
+    </header>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="description">
+                <div class="desc-left">
+                    <video height="700px" width="700px" autoplay loop muted src="{% static 'img/GiD-switch-exploded.mp4'%}">
+                    </video>
+                </div>
+                <div class="desc-rightt">
+                    <h4>switch</h4>
+                    <p>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis dignissimos quas aperiam quidem alias vitae minima asperiores quo repellat ipsam tempore, exercitationem officiis accusamus nihil at saepe eveniet id!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container">
+        </div>
+    </footer>
+</body>
+</html>
