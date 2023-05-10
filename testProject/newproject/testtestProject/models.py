@@ -5,7 +5,6 @@ class Person(models.Model):
     name = models.CharField(max_length=200)
     lastname = models.CharField(max_length=200)
 
-
 class Mechanism(models.Model):
     switch = models.CharField(max_length=200)
     keycup = models.CharField(max_length=200)
