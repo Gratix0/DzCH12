@@ -20,7 +20,7 @@ from testtestProject.views import index, switch, about, contakts, pinkipig, tike
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index.html', index),
+    path('', index),
     path('switch.html', switch),
     path('tikets.html', tikets),
     path('about.html', about),

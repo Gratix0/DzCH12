@@ -1,10 +1,14 @@
 from django.shortcuts import render
+from .models import Person
 
 # Create your views here.
 
 def index(request):
     
-    return render(request, 'testtestProject/index.html')
+    person = Person.objects.order_by('name')
+    context = {'name': person}
+
+    return render(request, 'testtestProject/index.html', context)
 
 def about(request):
     return render(request, 'testtestProject/about.html')

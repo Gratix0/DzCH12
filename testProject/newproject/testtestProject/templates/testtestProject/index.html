@@ -46,11 +46,15 @@
                 </a>
             </div>
             <div class="offer">
+                
                 <p>Кастомные механические клавиатуры</p>
-                <h1>
-                    Kraev Custom
+                {% for i in name %}
+                <h1 class="Person-name">
+                    {{i.name}} Custom
                 </h1>
+                {% endfor %}
                 <a href="tikets.html" class="btn">Выбрать</a>
+                
             </div>
         </div>
     </header>
